@@ -1,0 +1,52 @@
+/******************
+******General******
+******************/
+body {
+    background-color: #F2F2F2;
+	margin-top: 50px;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+	color: #777;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul li {
+	margin-bottom: 5px;
+}
+
+img {
+	max-width: 100%
+}
+
+.retraso {
+	animation-delay: 0.5s;
+	
+}
+
+/******************
+******Header*******
+******************/
+
+#main-header {
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+
+
+#main-content {
+    
+    
+}
+

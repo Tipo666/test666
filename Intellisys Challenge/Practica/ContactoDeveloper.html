@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+	<!-- Estilos personalizados -->
+	<link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/estilosGenerales.css">
+
+	<script src="http://use.edgefonts.net/alice:n4:all;artifika:n4:all;yeseva-one:n4:all.js"></script>
+	
+	<!-- Adaptar a pantallas moviles -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+	<style type="text/css" media="screen"> img{max-width:100%;} </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Contacto</h1>
+        </div>
+        <div>
+          <ol class="breadcrumb">
+       <li><a href="HomeAdmin.html">Home</a></li>
+       <li class="active">Contacto</li>
+       <li><a href="PedidosAdmin.html">Pedidos</a></li>
+       <li><a href="GrupoAdmin.html">Grupo</a></li>
+       <li><a href="UsuariosAdmin.html">Usuarios</a></li>
+       </ol> 
+          </div>
+ 
+    </div>
+    
+    
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-12" id="contenido-left">
+                <div role="tabpanel">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#seccion1" aria-controls="seccion1" data-toggle="tab" role="tab">Lista de contacto</a></li>
+                        <li role="presentation"><a href="#seccion2" aria-controls="seccion2" data-toggle="tab" role="tab">Sugerir Contacto</a></li>
+                    </ul>
+                    
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="seccion1">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-6"><h3>Listado de contacto</h3></div>
+                                    <div class="col-xs-12 col-md-2"><h3>Filtrar por:</h3></div>  
+                                    <div class="col-xs-12 col-md-4">
+                                          <form>
+                                              <br>
+                                               <div class="form-group"> 
+                                                    <select class="form-control" >
+                                                        <option value=" ">Rating</option>
+                                                        <option value=" ">Nombre</option>
+                                                        <option value=" ">Telefono</option>
+                                                       
+                                                    </select>
+                                                </div>
+                                          </form>
+                                     </div>
+                                </div>
+                               
+                                   <div class="table-reponsive">
+                                    <table class="table table-striped table-bordered table-hover table-condensed">
+                                    
+                                        <tr class="info sucess danger warning">
+                                          <th>Nombre </th>
+                                          <th>Telefono </th>
+                                          <th>Direccion</th>
+                                          <th>Categoria</th>
+                                          <th>Rating</th>
+                                        </tr>
+
+                                        <tr>
+                                          <td>Numero 1</td>
+                                          <td>Numero 2</td>
+                                          <td>Numero 3</td>
+                                          <td>Numero 4</td>
+                                          <td>Numero 5</td>        
+                                        </tr>
+
+                                        <tr>
+                                          <td>Numero 1</td>
+                                          <td>Numero 2</td>
+                                          <td>Numero 3</td>
+                                          <td>Numero 4</td>
+                                          <td>Numero 5</td>
+                                        </tr>
+
+                                        <tr>
+                                          <td>Numero 1</td>
+                                          <td>Numero 2</td>
+                                          <td>Numero 3</td>
+                                          <td>Numero 4</td>
+                                          <td>Numero 5</td>
+                                        </tr>
+
+                                    </table>
+                                 </div>
+                            
+                        </div>
+                        
+                        <div role="tabpanel" class="tab-pane" id="seccion2">
+                            <h3>Sugerir Contacto</h3>
+                            
+                            <div class="col-md-8">
+                                <form>
+                                    <div class="form-group"> 
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="nombre">Nombre:</label>
+                                        <input class="form-control" id="nombre" type="text" placeholder="Nombre:">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="telefono">Tipo de categoria</label>
+                                        <input class="form-control" id="categoria" type="text" placeholder="Tipo de categoria">
+                                    </div>
+
+                                     <div class="form-group">
+                                        <label for="Dirreccion">Direccion</label>
+                                        <textarea class="form-control" id="Dirrecion" placeholder="Escribe Tu Direccion:" maxlength="50"></textarea>
+                                     </div>
+
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-primary" id="summit" value="Enviar">
+                                     </div>
+                             </form>
+                         </div>
+                        
+                        <div class="col-md-4"></div>
+                                                         
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer id="main-footer">
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-12 col-sm-5">
+				<h3>PRÓXIMOS Desarrollos</h3>
+				<ul id="link-list">
+					<li><a href="#">Título del primer ejemplo de pruebas</a></li>
+					<li><a href="#">Título del segundo ejemplo de pruebas</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+				<h3>NO TE PIERDAS NUESTRAS NOVEDADES</h3>
+				<form id="subscribe-form" action="#">
+					<div class="row">
+						<div class="col-xs-7 col-sm-8">
+							<div class="form-group">
+								<label class="sr-only" for="email">tu correo electrónico</label>
+								<input type="text" id="email" name="email" class="form-control input-lg" placeholder="tu correo electrónico">
+							</div>
+						</div>
+						<div class="col-xs-5 col-sm-4">
+							<button class="btn btn-custom btn-lg">SUSCRIBIRME</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-xs-12 col-sm-5">
+				<h3>SOBRE EL SISTEMA DE ORDENES</h3>
+				<p>Es un sistema que se utiliza para recolectar y llevar a cabo un control sobre los diferentes pedidos realizados a los diversos establecimientos de comida y alimentos. </p>
+			</div>
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul id="font-end">
+							<h3>Desarrolladores</h3>
+							<p>Font-end</p>
+							<li>Cristian Gómez Evangelista</li>
+							<li>Randy Grabiel Dilone de leon</li>
+							<br>
+							<p>Aplicativo Android</p>
+							<li>Julio Bejamin Delgado</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<br>
+						<br class="hidden-xs">
+						<br class="hidden-xs">
+						
+						<ul id="back-end">
+							<p>Back-end</p>
+							<li>Cesar Baez</li>
+							<li>Luis Miguel Bido</li>
+						</ul>
+					
+					</div>
+				</div>
+			
+				
+			</div>
+		</div>
+       </div>
+   </footer>
+
+
+</body>
+</html>

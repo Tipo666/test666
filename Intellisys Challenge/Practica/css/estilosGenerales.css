@@ -1,0 +1,25 @@
+body {
+    background: rgb(233, 235, 238);
+}
+
+#contenido-left, #contenido-right {
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px;
+    
+}
+
+#btns {
+    margin: 5px;
+    width: 50%;
+    margin-left: 70px;
+    
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	#btns {
+     margin: 5px;
+     width: 20%;
+    }
+}

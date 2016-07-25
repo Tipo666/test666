@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistemas de ordenes</title>
+    
+    
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+	<!-- Estilos personalizados -->
+	<link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/AdminHome.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+	<script src="http://use.edgefonts.net/alice:n4:all;artifika:n4:all;yeseva-one:n4:all.js"></script>
+    <script type="text/javascript" src="js/comnetarios.js"></script>
+	
+	<!-- Adaptar a pantallas moviles -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+	<style type="text/css" media="screen"> img{max-width:100%;} </style>
+    
+</head>
+<body>
+    <header id="main-header">
+            <nav class="navbar navbar-default" >
+               <div class="container-fluid">
+                 <div class="navbar-header">
+                   <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-1">
+                         <span class="sr-only">Menu</span>
+                          <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                     </button>
+                       <a href="#" class="navbar-brand">Sistema</a>
+                   </div>
+                    <div class="collapse navbar-collapse" id="navbar-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="ContactoAdmin.html">Contacto</a></li>
+                            <li><a href="Pedidos.html">Pedido</a></li>
+                            <li><a href="GrupoAdmin.html">Grupo</a></li>
+                            <li><a href="UsuariosAdmin.html">Usuarios</a></li>
+                         </ul>
+                        <form action="" class="navbar-form navbar-right" role="search">
+                             <div  class="form-group">
+                                 <input type="text" class="form-control" placeholder="Buscar contacto">
+                             </div>
+                             <button type="submit" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </form>
+                     </div>
+               </div>
+           </nav>
+ 	</header>
+    
+    
+    <div id="main-content">
+        <article>
+            <div class="container">
+                <div class= "row">
+                    
+                    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-3">
+                        <div class="thumbnail bootsnipp-thumb">
+                            <div>
+                                <p class="pull-right view-counts hidden-md">
+                                    Rating General
+                                </p>
+                                <p class="lead snipp-title">
+                                    Prueba de contacto 1
+                                </p>
+                            </div>
+                                <a href="#">
+                                    <img width="320" height="240" src="png/toronto_skyscrapers_black_and_white_2-wallpaper-1366x768.png" alt="Prueba de contacto!">
+                                </a>
+                            <div class="caption">
+                            </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="well well-sm">
+                                            <div class="text-right">
+                                                <a class="btn btn-success btn-green" href="#reviews-anchor" id="open-review-box">Leave a      Review</a>
+                                            </div>
+
+                                            <div class="row" id="post-review-box" style="display:none;">
+                                                <div class="col-md-12">
+                                                    <form accept-charset="UTF-8" action="" method="post">
+                                                        <input id="ratings-hidden" name="rating" type="hidden"> 
+                                                        <textarea class="form-control animated" cols="50" id="new-review" name="comment" placeholder="Enter your review here..." rows="5"></textarea>
+
+                                                        <div class="text-right">
+                                                        <div class="stars starrr" data-rating="0"></div>
+                                                        <a class="btn btn-danger btn-sm" href="#" id="close-review-box" style="display:none; margin-right: 10px;">
+                                                        <span class="glyphicon glyphicon-remove"></span>Cancel</a>
+                                                        <button class="btn btn-success btn-lg" type="submit">Save</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                           </div>
+                      </div>
+
+                    
+                    
+                    
+                    
+                
+                </div>
+            </div>
+        </article>
+    </div>
+            
+       
+    
+    
+    <footer id="main-footer">
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-12 col-sm-5">
+				<h3>PRÓXIMOS Desarrollos</h3>
+				<ul id="link-list">
+					<li><a href="#">Título del primer ejemplo de pruebas</a></li>
+					<li><a href="#">Título del segundo ejemplo de pruebas</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+				<h3>NO TE PIERDAS NUESTRAS NOVEDADES</h3>
+				<form id="subscribe-form" action="#">
+					<div class="row">
+						<div class="col-xs-7 col-sm-8">
+							<div class="form-group">
+								<label class="sr-only" for="email">tu correo electrónico</label>
+								<input type="text" id="email" name="email" class="form-control input-lg" placeholder="tu correo electrónico">
+							</div>
+						</div>
+						<div class="col-xs-5 col-sm-4">
+							<button class="btn btn-custom btn-lg">SUSCRIBIRME</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-xs-12 col-sm-5">
+				<h3>SOBRE EL SISTEMA DE ORDENES</h3>
+				<p>Es un sistema que se utiliza para recolectar y llevar a cabo un control sobre los diferentes pedidos realizados a los diversos establecimientos de comida y alimentos. </p>
+			</div>
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul id="font-end">
+							<h3>Desarrolladores</h3>
+							<p>Font-end</p>
+							<li>Cristian Gómez Evangelista</li>
+							<li>Randy Grabiel Dilone de leon</li>
+							<br>
+							<p>Aplicativo Android</p>
+							<li>Julio Bejamin Delgado</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<br>
+						<br class="hidden-xs">
+						<br class="hidden-xs">
+						
+						<ul id="back-end">
+							<p>Back-end</p>
+							<li>Cesar Baez</li>
+							<li>Luis Miguel Bido</li>
+						</ul>
+					
+					</div>
+				</div>
+			
+				
+			</div>
+		</div>
+       </div>
+   </footer>
+
+
+</body>
+</html>

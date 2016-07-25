@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+     <!-- Adaptar a pantallas moviles -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+	<!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/estilosGenerales.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<script src="http://use.edgefonts.net/alice:n4:all;artifika:n4:all;yeseva-one:n4:all.js"></script>
+	
+	<style type="text/css" media="screen"> img{max-width:100%;} </style>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Grupo</h1>
+        </div>
+        <div>
+          <ol class="breadcrumb">
+       <li><a href="HomeAdmin.html">Home</a></li>
+       <li><a href="ContactoAdmin.html">Contacto</a></li>
+       <li><a href="Pedidos.html">Pedidos</a></li>
+       <li class="active">Grupo</li>
+       <li><a href="UsuariosAdmin.html">Usuarios</a></li>
+      
+       </ol> 
+          </div>
+ 
+    </div>
+    
+    <div class="container" id="main-content">
+        <div class="row content">
+            <div class="col-xs-12 col-sm-4" id="contenido-left">
+              <div class="row">
+                  <div class="col-sm-4">
+                    <h4>Buscar grupo:</h4>
+                  </div>
+                <div class="col-sm-8">
+                    <div class="input-group">
+                      <input type="text" class="form-control">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Buscar</button>
+                      </span>
+                    </div>
+                </div> 
+             </div>
+             <h2>Hover Rows</h2>
+                    <p>The .table-hover class enables a hover state on table rows:</p>
+                      <table class="table table-striped table-bordered table-hover table-condensed">
+                        <thead>
+                          <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Ver grupo</th>
+                        
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td><button type="button" class="btn btn-info">Ver</button></td>
+                            
+                          </tr>
+                          <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td><button type="button" class="btn btn-info">Ver</button></td>
+                            
+                          </tr>
+                          <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td><button type="button" class="btn btn-info">Ver</button></td>
+                            
+                          </tr>
+                        </tbody>
+                      </table>    
+           </div>
+           <div class="col-xs-12 col-sm-1">
+            <br>
+            </div>
+            
+           <div class="col-xs-12 col-sm-7" id="contenido-right">
+                <h3>Aqui van los detalles de los grupos</h3>
+                <h2>Hover Rows</h2>
+                    <p>The .table-hover class enables a hover state on table rows:</p>
+                      <table class="table table-striped table-bordered table-hover table-condensed">
+                        <thead>
+                          <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                          </tr>
+                          <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                          </tr>
+                          <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                 <button type="button" class="btn btn-primary" id="btns">Agregar Usuario</button>
+                 <button type="button" class="btn btn-primary" id="btns">Eliminar Usuario</button>
+                 <button type="button" class="btn btn-primary" id="btns">Eliminar grupo</button>
+           </div>
+        </div>
+  </div>
+
+  <footer id="main-footer">
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-12 col-sm-5">
+				<h3>PRÓXIMOS Desarrollos</h3>
+				<ul id="link-list">
+					<li><a href="#">Título del primer ejemplo de pruebas</a></li>
+					<li><a href="#">Título del segundo ejemplo de pruebas</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+				<h3>NO TE PIERDAS NUESTRAS NOVEDADES</h3>
+				<form id="subscribe-form" action="#">
+					<div class="row">
+						<div class="col-xs-7 col-sm-8">
+							<div class="form-group">
+								<label class="sr-only" for="email">tu correo electrónico</label>
+								<input type="text" id="email" name="email" class="form-control input-lg" placeholder="tu correo electrónico">
+							</div>
+						</div>
+						<div class="col-xs-5 col-sm-4">
+							<button class="btn btn-custom btn-lg">SUSCRIBIRME</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-xs-12 col-sm-5">
+				<h3>SOBRE EL SISTEMA DE ORDENES</h3>
+				<p>Es un sistema que se utiliza para recolectar y llevar a cabo un control sobre los diferentes pedidos realizados a los diversos establecimientos de comida y alimentos. </p>
+			</div>
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul id="font-end">
+							<h3>Desarrolladores</h3>
+							<p>Font-end</p>
+							<li>Cristian Gómez Evangelista</li>
+							<li>Randy Grabiel Dilone de leon</li>
+							<br>
+							<p>Aplicativo Android</p>
+							<li>Julio Bejamin Delgado</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<br>
+						<br class="hidden-xs">
+						<br class="hidden-xs">
+						
+						<ul id="back-end">
+							<p>Back-end</p>
+							<li>Cesar Baez</li>
+							<li>Luis Miguel Bido</li>
+						</ul>
+					
+					</div>
+				</div>
+			
+				
+			</div>
+		</div>
+       </div>
+   </footer>
+
+
+</body>
+</html>

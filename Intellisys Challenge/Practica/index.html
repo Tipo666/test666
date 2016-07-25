@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sistemas de ordenes</title>
+    
+    <!-- Adaptar a pantallas moviles -->
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+	<!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/loggin.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<script src="http://use.edgefonts.net/alice:n4:all;artifika:n4:all;yeseva-one:n4:all.js"></script>
+	
+	<style type="text/css" media="screen"> img{max-width:100%;} </style>
+	
+	<!-- Funcion JQuery del Login y Sign in -->
+	<script>$(document).ready(function() {
+			
+		$('#login-form-link').click(function(e) {
+			$("#login-form").delay(100).fadeIn(100);
+			$("#register-form").fadeOut(100);
+			$('#register-form-link').removeClass('active');
+			$(this).addClass('active');
+			e.preventDefault();
+		});
+		$('#register-form-link').click(function(e) {
+			$("#register-form").delay(100).fadeIn(100);
+			$("#login-form").fadeOut(100);
+			$('#login-form-link').removeClass('active');
+			$(this).addClass('active');
+			e.preventDefault();
+		});
+
+	}); 
+	</script>
+	
+	<script type="text/javascript" src="js/validacionR.js"></script>
+	
+
+	
+</head>
+<body>
+    
+	<header id="main-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+        			<h1 class="animated bounceIn">Sistema de Órdenes Dominicano <small>intellisyschallenge</small></h1>
+				</div>
+			</div>
+    	</div>
+ 	</header>
+    
+	
+	<div id="main-content">
+		<article id="w1" class="workshop">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-8 col-md-push-4 col-lg-8 col-lg-push-4">
+						<img class="animated zoomIn retraso" src="png/toronto_skyscrapers_black_and_white_2-wallpaper-1366x768.png">
+					</div>
+					
+					<div class="container visible-xs visible-sm">
+						<div class="row"></div>
+						<br>
+					</div>
+					
+					<div class="col-xs-12 col-sm-12 col-md-4 col-md-pull-8 col-lg-4 col-lg-pull-8">
+						<div class="panel panel-login animated zoomIn retraso">
+								<div class="panel-heading">
+									<div class="row">
+										<div class="col-xs-6">
+											<a href="#" class="active" id="login-form-link">Iniciar sesión</a>
+										</div>
+										<div class="col-xs-6">
+											<a href="#" class="re" id="register-form-link">Regístrate</a>
+										</div>
+									</div>
+									<hr>
+								</div>
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-lg-12">
+											<form id="login-form" action="#" method="post" role="form" style="display: block;">
+												<div class="form-group">
+													<input type="text" name="username" id="Username" tabindex="1" class="form-control" placeholder="Correo electrónico o Usuario" value="">
+												</div>
+												<div class="form-group">
+													<input type="password" name="password" id="Password" tabindex="2" class="form-control" placeholder="Contraseña">
+												</div>
+												<div class="form-group text-center">
+													<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+													<label for="remember">Recuerdame</label>
+												</div>
+												<div class="form-group">
+													<div class="row">
+														<div class="col-sm-6 col-sm-offset-3">
+															<input type="submit" name="login-submit" id="Login-submit" tabindex="4" class="form-control btn btn-login" value="Entrar">
+														</div>
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="row">
+														<div class="col-lg-12">
+															<div class="text-center">
+																<a href="" tabindex="5" class="forgot-password">¿Se te olvidó tu contraseña?</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</form>
+											<form id="register-form" action="#" method="post" role="form" style="display: none;" >
+												<div class="form-group">
+													<input type="text" name="username" id="UsernameR" tabindex="1" class="form-control" placeholder="Nombre de usuario" value="" required>
+												</div>
+												<div class="form-group">
+													<input type="email" name="email" id="EmailR" tabindex="1" class="form-control" placeholder="Correo electrónico" value="" required>
+												</div>
+												<div class="form-group">
+													<input type="password" name="password" id="PasswordR" tabindex="2" class="form-control" placeholder="Contraseña" required>
+												</div>
+												<div class="form-group">
+													<input type="password" name="confirm-password" id="Confirm-passwordR" tabindex="2" class="form-control" placeholder="Confirmar contraseña" required>
+												</div>
+												<div class="form-group">
+													<div class="row">
+														<div class="col-sm-6 col-sm-offset-3">
+															<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Registrar ahora">
+														</div>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+					   </div>
+				   </div>
+			  </div>
+		</article>
+	</div>
+	
+		
+
+    
+	<footer id="main-footer">
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-12 col-sm-5">
+				<h3>PRÓXIMOS Desarrollos</h3>
+				<ul id="link-list">
+					<li><a href="#">Título del primer ejemplo de pruebas</a></li>
+					<li><a href="#">Título del segundo ejemplo de pruebas</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+				<h3>NO TE PIERDAS NUESTRAS NOVEDADES</h3>
+				<form id="subscribe-form" action="#">
+					<div class="row">
+						<div class="col-xs-7 col-sm-8">
+							<div class="form-group">
+								<label class="sr-only" for="email">tu correo electrónico</label>
+								<input type="text" id="email" name="email" class="form-control input-lg" placeholder="tu correo electrónico">
+							</div>
+						</div>
+						<div class="col-xs-5 col-sm-4">
+							<button class="btn btn-custom btn-lg">SUSCRIBIRME</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-xs-12 col-sm-5">
+				<h3>SOBRE EL SISTEMA DE ORDENES</h3>
+				<p>Es un sistema que se utiliza para recolectar y llevar a cabo un control sobre los diferentes pedidos realizados a los diversos establecimientos de comida y alimentos. </p>
+			</div>
+			<div class="col-xs-12 col-sm-7 col-md-6 col-md-offset-1">
+				<div class="row">
+					<div class="col-sm-6">
+						<ul id="font-end">
+							<h3>Desarrolladores</h3>
+							<p>Font-end</p>
+							<li>Cristian Gómez Evangelista</li>
+							<li>Randy Grabiel Dilone de leon</li>
+							<br>
+							<p>Aplicativo Android</p>
+							<li>Julio Bejamin Delgado</li>
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<br>
+						<br class="hidden-xs">
+						<br class="hidden-xs">
+						
+						<ul id="back-end">
+							<p>Back-end</p>
+							<li>Cesar Baez</li>
+							<li>Luis Miguel Bido</li>
+						</ul>
+					
+					</div>
+				</div>
+			
+				
+			</div>
+		</div>
+       </div>
+   </footer>
+  
+      
+    
+</body>
+</html>

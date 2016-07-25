@@ -1,0 +1,47 @@
+
+.red{
+	color: red;
+}
+
+.gray{
+	color: gray;
+}
+
+.blue{
+	color: #5080d8;
+}
+
+header{
+	background-color: #cce5ff;
+	float: none;
+	width: auto;
+}
+
+.input-group{
+	margin: 20px 20px 10px;
+}
+
+.glyphicon-trash, .glyphicon-ok-circle, .glyphicon-remove-circle, .glyphicon-pencil{
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.glyphicon-ok-circle, .glyphicon-remove-circle{
+	font-size: 40px;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
